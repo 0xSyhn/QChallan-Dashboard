@@ -48,7 +48,7 @@
             
             // Generate QR code
             const currentUrl = window.location.href;
-            new QRCode(document.getElementById("qrcode"), currentUrl);
+            new QRCode(document.getElementById("qrcode"), displayText);
         }
 
         window.onload = displayPathOrQuery;
