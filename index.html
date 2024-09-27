@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path/Query Display Website with QR Code</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        #display, #qrcode {
+            font-size: 2em;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="display"></div>
+    <div id="qrcode"></div>
+    <script>
+        function displayPathOrQuery() {
+            const displayElement = document.getElementById('display');
+            const path = window.location.pathname.split('/').pop();
+            const query = window.location.search.slice(1);
+            let displayText;
+            
+            if (query) {
+                displayText = query;
+            } else if (path && path !== 'index.html') {
+                displayText = path;
+            } else {
+                displayText = 'No path or query provided';
+            }
+
+            displayElement.textContent = displayText;
+            
+            // Generate QR code
+            const currentUrl = window.location.href;
+            new QRCode(document.getElementById("qrcode"), currentUrl);
+        }
+
+        window.onload = displayPathOrQuery;
+    </script>
+</body>
+</html>
