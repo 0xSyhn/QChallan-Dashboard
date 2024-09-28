@@ -3,32 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Goa Police Pass eheeheeheheeheh</title>
+    <title>Goa Police Pass</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
   </head>
-  <body>
-    <div class="box-border">
-      <div id="header" class="my-3 p-5 ml-2 flex items-center">
+  <body class="h-screen">
+    <div class="box-border flex h-full w-full flex-col">
+      <div id="header" class="my-3 ml-2 flex items-center">
         <img src="./assets/logo.png" alt="Emblem_of_Goa_Police" class="w-12" />
         <h3 class="text-lg font-medium mx-2">GOA POLICE PASS</h3>
       </div>
-      <div class="flex flex-col justify-center items-center mt-6 pt-6">
-        <div class="w-3/4 h-96 bg-gray-100 rounded-lgs drop-shadow-2xl">
+      <!-- <div class="flex-grow w-full border-gray-400"></div> -->
+      <div class="flex flex-col flex-1 items-center justify-center">
+        <div class="flex flex-col justify-center items-center gap-y-6">
+          <div class="w-full p-4 h-96 bg-gray-100 rounded-xl drop-shadow-2xl">
+            <div
+              id="status"
+              class="flex justify-center p-2 font-bold text-xl"
+            ></div>
+            <div id="display" class="flex justify-center m-2 text-lg"></div>
+            <div id="qrcode" class="flex justify-center"></div>
+          </div>
           <div
-            id="status"
-            class="flex justify-center p-2 font-bold text-xl"
-          ></div>
-          <div id="display" class="flex justify-center m-2 text-lg"></div>
-          <div id="qrcode" class="flex justify-center"></div>
+            class="w-full p-4 h-10 bg-stone-100 rounded-md flex items-center justify-center"
+          >
+            <div id="timeInfo" class="flex justify-center items-center"></div>
+          </div>
         </div>
       </div>
-      <div class="flex justify-center items-center">
-        <div class="w-3/4 h-10 bg-stone-100 rounded-md mt-12">
-          <div id="timeInfo" class="flex justify-center item-center mt-2"></div>
-        </div>
-      </div>
+      <div class="flex justify-center items-center"></div>
     </div>
     <script src="logic.js"></script>
   </body>
