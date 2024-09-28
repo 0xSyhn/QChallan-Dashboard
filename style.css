@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.5s ease;
+}
+#header, #status, #display, #qrcode, #timeInfo {
+    width: 100%;
+    max-width: 300px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin: 10px 0;
+    text-align: center;
+}
+#header {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #4a90e2;
+    color: white;
+}
+#status {
+    font-size: 1.3em;
+    font-weight: bold;
+}
+#display {
+    font-size: 1.8em;
+    word-break: break-all;
+}
+#qrcode {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qrcode img {
+    max-width: 100%;
+    height: auto;
+}
+#timeInfo {
+    font-size: 1em;
+}
+@media (max-width: 360px) {
+    #header, #status, #display, #timeInfo {
+        display: none;
+    }
+    #qrcode {
+        margin-top: 0;
+    }
+}
