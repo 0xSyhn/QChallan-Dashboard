@@ -81,7 +81,7 @@ import {
   
   function ViolationRow({ violations }: { violations: { name: string; count: number }[] }) {
     return (
-      <div className="space-y-2">
+      <div className="space-y-2 ">
         <div className="flex items-center space-x-2">
           <ExclamationTriangleIcon className="h-5 w-5 text-muted-foreground" />
           <h3 className="text-sm font-medium text-muted-foreground">Top Violations</h3>

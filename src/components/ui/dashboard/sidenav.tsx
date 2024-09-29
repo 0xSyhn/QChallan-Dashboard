@@ -11,7 +11,7 @@ export default function SideNav() {
         href="/"
       >
         <div className="w-32  font-bold md:w-40">
-          <Image src={'src\assets\Emblem_of_Goa_Police.png'} alt="Goa Police" />  
+          <Image src={'/src/assets/Emblem_of_Goa_Police.png'} alt="Goa Police" width={250} height={250} />  
           Goa Police
         </div>
       </Link>
