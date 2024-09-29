@@ -18,7 +18,7 @@
     "leaflet": "^1.9.4",
     "leaflet.heat": "^0.2.0",
     "lucide-react": "^0.446.0",
-    "next": "14.2.13",
+    "next": "^14.2.13",
     "papaparse": "^5.4.1",
     "react": "^18",
     "react-dom": "^18",
