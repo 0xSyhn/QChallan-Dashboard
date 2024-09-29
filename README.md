@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 Mobile Application-Based Vehicle Pass for Traffic Violation Checks
 
-## Getting Started
+**"Streamlining Traffic Management and Reducing Commuter Harassment"**
+Team: ALT-F4
 
-First, run the development server:
+## 🔍 Objective
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**Goal:** To develop a mobile application that issues digital vehicle passes for vehicles that have already been checked, reducing the harassment of commuters and improving overall traffic flow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚙️ Key Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* ⏱️ **Real-Time Pass Generation:** Issue a digital pass valid for 4 hours after a vehicle or driver is checked.
+* 📷 **QR Code Integration:** Generate passes with scannable QR codes for easy verification by officers.
+* 🚗 **Vehicle and Driver Database:** Maintain a secure backend database that stores vehicle and driver information, including violation history.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ➕ Additional Functionalities
 
-## Learn More
+* 🗺️ **Geo-tagging and Timestamping:** Record the location and time of each violation check and pass issuance for better monitoring.
+* 🔐 **Officer Authentication:** Require officers to authenticate using unique login credentials, ensuring only authorized personnel can issue or verify passes.
+* 🚨 **Alert System:** Provide real-time alerts if a vehicle is flagged for a violation after a pass has been issued, ensuring compliance.
 
-To learn more about Next.js, take a look at the following resources:
+## 📄 OCR and Challan Generation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* 🆔 **OCR for Vehicle Registration:** 
+    * Capture vehicle registration numbers using Optical Character Recognition (OCR).
+    * Display the owner’s name and phone number for easy identification.
+* 🧾 **Challan Generation and Notification:** 
+    * Automatically generate a challan for traffic violations and send an SMS to the driver's phone number.
+    * The SMS contains a link that opens a webpage displaying the QR code and its validity status.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔍 QR Code Scanning and AI Recommendations
 
-## Deploy on Vercel
+* 📱 **QR Code Scanning:** Officers can scan the QR code to check its validity in real time.
+* 🤖 **AI Recommendations:** Display all traffic violations associated with the vehicle and provide AI-based recommendations for follow-up actions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📈 Conclusion and Future Enhancements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Summary:** The mobile application streamlines traffic management, improves efficiency, and reduces harassment of law-abiding commuters by providing officers with real-time data and verification capabilities.
+
+**Future Enhancements:**
+
+* 👨‍💻 **User-friendly Interface:** Enhance the usability of the app.
+* 🔒 **Data Encryption:** Ensure that all sensitive data is encrypted for security.
+* 🌐 **Offline Mode:** Allow the app to function even without an internet connection.
+* 📝 **Feedback Mechanism:** Implement a feedback system for users and officers.
+
+## Icons Legend:
+
+* 📱 Mobile Application
+* 🔍 Objective
+* ⚙️ Key Features
+* ➕ Additional Functionalities
+* 📄 OCR and Challan Generation
+* 🔍 QR Code Scanning
+* 📈 Conclusion
+* 🤖 AI Recommendations
+* 🚗 Vehicle
+* 🔐 Security Features
