@@ -1,3 +1,27 @@
+import vehicleData from "./vehicleDetails";
+interface VehicleData {
+    vehicleNumber: string;
+    chassisNo: string;
+    engineNumber: string;
+    ownerName: string;
+    phoneNumber: number;
+    vehicleClass: string;
+    fuelType: string;
+    makerModel: string;
+    vehicleColor: string;
+    seatCapacity: number;
+    insuranceCompany: string;
+    ownershipDesc: string;
+    violations: string;
+    timestamp: number;
+    location: string;
+    officer: string;
+    challanAmount: number;
+    longitude: number;
+    latitude: number;
+    zone:string
+}
+
 class StandardScaler {
     private mean: number[] | null = null;
     private std: number[] | null = null;
@@ -77,10 +101,11 @@ export class MKNNGeoClassifier {
         this.nn = new NearestNeighbors(n_neighbors, radius);
     }
 
-    fit(X: number[][], y: string[]): void {
-        this.X = this.scaler.fit_transform(X);
-        this.y = y;
-        this.nn.fit(this.X);
+    fit(data: VehicleData[]): void {
+        this.X = data.map(item => [item.latitude, item.longitude]);
+        this.y = data.map(item => item.zone);
+        const scaledX = this.scaler.fit_transform(this.X);
+        this.nn.fit(scaledX);
     }
 
     predict(X: number[][]): string[] {
@@ -101,41 +126,27 @@ export class MKNNGeoClassifier {
         });
     }
 
-    cluster_and_analysis(X: number[][], amounts: number[], violations: string[]): {[key: string]: {total_amount: number, violations: {[key: string]: number}}} {
+    cluster_and_analysis(data: VehicleData[]): {[key: string]: {total_amount: number, violations: {[key: string]: number}}} {
+        const X = data.map(item => [item.latitude, item.longitude]);
         const predictions = this.predict(X);
         const clusters: {[key: string]: {total_amount: number, violations: {[key: string]: number}}} = {};
         predictions.forEach((pred, i) => {
             if (!clusters[pred]) {
                 clusters[pred] = { total_amount: 0, violations: {} };
             }
-            clusters[pred].total_amount += amounts[i];
-            clusters[pred].violations[violations[i]] = (clusters[pred].violations[violations[i]] || 0) + 1;
+            clusters[pred].total_amount += data[i].challanAmount;
+            clusters[pred].violations[data[i].violations] = (clusters[pred].violations[data[i].violations] || 0) + 1;
         });
         return clusters;
     }
 }
 
-
 export async function fetchCardData() {
     try {
-        // Example data
-        const locations = [
-            [28.6139, 77.2090],  // Delhi
-            [19.0760, 72.8777],  // Mumbai
-            [13.0827, 80.2707],  // Chennai
-            [22.5726, 88.3639],  // Kolkata
-            [12.9716, 77.5946],  // Bangalore
-            [28.7041, 77.1025],  // Near Delhi
-            [19.1176, 72.9060],  // Near Mumbai
-        ];
-        const zones = ['North', 'West', 'South', 'East', 'South', 'North', 'West'];
-        const amounts = [1000, 1500, 800, 1200, 900, 1100, 1300];
-        const violations = ['Speeding', 'Red Light', 'No Parking', 'Wrong Lane', 'No Helmet', 'Speeding', 'Red Light'];
-
         const classifier = new MKNNGeoClassifier(3);
-        classifier.fit(locations, zones);
+        classifier.fit(vehicleData);
 
-        const analysis = classifier.cluster_and_analysis(locations, amounts, violations);
+        const analysis = classifier.cluster_and_analysis(vehicleData);
 
         interface ViolationData {
             name: string;
@@ -149,12 +160,7 @@ export async function fetchCardData() {
             violations: ViolationData[];
         }
 
-        const zoneData: { [key: string]: ZoneData } = {
-            North: { challans: 0, amount: 0, avgAmount: 0, violations: [] },
-            South: { challans: 0, amount: 0, avgAmount: 0, violations: [] },
-            East: { challans: 0, amount: 0, avgAmount: 0, violations: [] },
-            West: { challans: 0, amount: 0, avgAmount: 0, violations: [] }
-        };
+        const zoneData: { [key: string]: ZoneData } = {};
 
         for (const [zone, data] of Object.entries(analysis)) {
             const challans = Object.values(data.violations).reduce((a, b) => a + b, 0);

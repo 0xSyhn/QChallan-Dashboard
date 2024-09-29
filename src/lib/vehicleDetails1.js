@@ -18,8 +18,7 @@ const vehicleData = [
    "officer": "Nikhil Parsekar",
    "challanAmount": 400,
    "longitude": 73.7042,
-   "latitude": 15.6845,
-   "zone": "North West"
+   "latitude": 15.6845
  },
  {
    "vehicleNumber": "GA16GH2345",
@@ -40,8 +39,7 @@ const vehicleData = [
    "officer": "Pooja Dubashi",
    "challanAmount": 800,
    "longitude": 73.7064,
-   "latitude": 15.6566,
-   "zone": "North West"
+   "latitude": 15.6566
  },
  {
    "vehicleNumber": "GA12YZ6789",
@@ -62,8 +60,7 @@ const vehicleData = [
    "officer": "Tanvi Shet",
    "challanAmount": 500,
    "longitude": 73.7388,
-   "latitude": 15.6297,
-   "zone": "North West"
+   "latitude": 15.6297
  },
  {
    "vehicleNumber": "GA17JK6789",
@@ -84,8 +81,7 @@ const vehicleData = [
    "officer": "Siddesh Kerkar",
    "challanAmount": 400,
    "longitude": 73.7391,
-   "latitude": 15.6025,
-   "zone": "North West"
+   "latitude": 15.6025
  },
  {
    "vehicleNumber": "UP85CD6995",
@@ -106,8 +102,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 500,
    "longitude": 73.7437,
-   "latitude": 15.5784,
-   "zone": "North West"
+   "latitude": 15.5784
  },
  {
    "vehicleNumber": "UP85CD6995",
@@ -128,8 +123,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 500,
    "longitude": 73.7437,
-   "latitude": 15.5784,
-   "zone": "North West"
+   "latitude": 15.5784
  },
  {
    "vehicleNumber": "UP85CD6995",
@@ -150,8 +144,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 500,
    "longitude": 73.7437,
-   "latitude": 15.5784,
-   "zone": "North West"
+   "latitude": 15.5784
  },
  {
    "vehicleNumber": "MH12JK7890",
@@ -172,8 +165,7 @@ const vehicleData = [
    "officer": "Meera Banerjee",
    "challanAmount": 300,
    "longitude": 73.7448,
-   "latitude": 15.5976,
-   "zone": "North West"
+   "latitude": 15.5976
  },
  {
    "vehicleNumber": "MH12JK7890",
@@ -194,8 +186,7 @@ const vehicleData = [
    "officer": "Meera Banerjee",
    "challanAmount": 300,
    "longitude": 73.7448,
-   "latitude": 15.5976,
-   "zone": "North West"
+   "latitude": 15.5976
  },
  {
    "vehicleNumber": "MH12JK7890",
@@ -216,8 +207,7 @@ const vehicleData = [
    "officer": "Meera Banerjee",
    "challanAmount": 300,
    "longitude": 73.7448,
-   "latitude": 15.5976,
-   "zone": "North West"
+   "latitude": 15.5976
  },
  {
    "vehicleNumber": "UP59CD4918",
@@ -238,8 +228,7 @@ const vehicleData = [
    "officer": "Deepa Singh",
    "challanAmount": 700,
    "longitude": 73.7545,
-   "latitude": 15.5431,
-   "zone": "North West"
+   "latitude": 15.5431
  },
  {
    "vehicleNumber": "UP59CD4918",
@@ -260,8 +249,7 @@ const vehicleData = [
    "officer": "Deepa Singh",
    "challanAmount": 700,
    "longitude": 73.7545,
-   "latitude": 15.5431,
-   "zone": "North West"
+   "latitude": 15.5431
  },
  {
    "vehicleNumber": "UP59CD4918",
@@ -282,8 +270,7 @@ const vehicleData = [
    "officer": "Deepa Singh",
    "challanAmount": 700,
    "longitude": 73.7545,
-   "latitude": 15.5431,
-   "zone": "North West"
+   "latitude": 15.5431
  },
  {
    "vehicleNumber": "UP65CD5318",
@@ -304,8 +291,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.7548,
-   "latitude": 15.5656,
-   "zone": "North West"
+   "latitude": 15.5656
  },
  {
    "vehicleNumber": "UP65CD5318",
@@ -326,8 +312,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.7548,
-   "latitude": 15.5656,
-   "zone": "North West"
+   "latitude": 15.5656
  },
  {
    "vehicleNumber": "UP65CD5318",
@@ -348,8 +333,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.7548,
-   "latitude": 15.5656,
-   "zone": "North West"
+   "latitude": 15.5656
  },
  {
    "vehicleNumber": "RJ14ST4567",
@@ -370,8 +354,7 @@ const vehicleData = [
    "officer": "Sneha Mehta",
    "challanAmount": 700,
    "longitude": 73.7556,
-   "latitude": 15.5645,
-   "zone": "North West"
+   "latitude": 15.5645
  },
  {
    "vehicleNumber": "RJ14ST4567",
@@ -392,8 +375,7 @@ const vehicleData = [
    "officer": "Sneha Mehta",
    "challanAmount": 700,
    "longitude": 73.7556,
-   "latitude": 15.5645,
-   "zone": "North West"
+   "latitude": 15.5645
  },
  {
    "vehicleNumber": "RJ14ST4567",
@@ -414,8 +396,7 @@ const vehicleData = [
    "officer": "Sneha Mehta",
    "challanAmount": 700,
    "longitude": 73.7556,
-   "latitude": 15.5645,
-   "zone": "North West"
+   "latitude": 15.5645
  },
  {
    "vehicleNumber": "GA06NP6789",
@@ -436,8 +417,7 @@ const vehicleData = [
    "officer": "Aditya Kerkar",
    "challanAmount": 600,
    "longitude": 73.7951,
-   "latitude": 15.7217,
-   "zone": "North West"
+   "latitude": 15.7217
  },
  {
    "vehicleNumber": "GA06NP6789",
@@ -458,8 +438,7 @@ const vehicleData = [
    "officer": "Aditya Kerkar",
    "challanAmount": 600,
    "longitude": 73.7951,
-   "latitude": 15.7217,
-   "zone": "North West"
+   "latitude": 15.7217
  },
  {
    "vehicleNumber": "DL01CD5678",
@@ -480,8 +459,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.8034,
-   "latitude": 15.4509,
-   "zone": "North West"
+   "latitude": 15.4509
  },
  {
    "vehicleNumber": "DL01CD5678",
@@ -502,8 +480,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.8034,
-   "latitude": 15.4509,
-   "zone": "North West"
+   "latitude": 15.4509
  },
  {
    "vehicleNumber": "DL01CD5678",
@@ -524,8 +501,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.8034,
-   "latitude": 15.4509,
-   "zone": "North West"
+   "latitude": 15.4509
  },
  {
    "vehicleNumber": "MH02AB1234",
@@ -546,8 +522,7 @@ const vehicleData = [
    "officer": "Pooja Reddy",
    "challanAmount": 300,
    "longitude": 73.8098,
-   "latitude": 15.5932,
-   "zone": "North West"
+   "latitude": 15.5932
  },
  {
    "vehicleNumber": "MH02AB1234",
@@ -568,8 +543,7 @@ const vehicleData = [
    "officer": "Pooja Reddy",
    "challanAmount": 300,
    "longitude": 73.8098,
-   "latitude": 15.5932,
-   "zone": "North West"
+   "latitude": 15.5932
  },
  {
    "vehicleNumber": "MH02AB1234",
@@ -590,8 +564,7 @@ const vehicleData = [
    "officer": "Pooja Reddy",
    "challanAmount": 300,
    "longitude": 73.8098,
-   "latitude": 15.5932,
-   "zone": "North West"
+   "latitude": 15.5932
  },
  {
    "vehicleNumber": "GA07AB1234",
@@ -612,8 +585,7 @@ const vehicleData = [
    "officer": "Pranav Desai",
    "challanAmount": 600,
    "longitude": 73.8113,
-   "latitude": 15.3927,
-   "zone": "North West"
+   "latitude": 15.3927
  },
  {
    "vehicleNumber": "GA07AB1234",
@@ -634,8 +606,7 @@ const vehicleData = [
    "officer": "Pranav Desai",
    "challanAmount": 600,
    "longitude": 73.8113,
-   "latitude": 15.3927,
-   "zone": "North West"
+   "latitude": 15.3927
  },
  {
    "vehicleNumber": "UP44CD4714",
@@ -656,8 +627,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 300,
    "longitude": 73.8123,
-   "latitude": 15.5916,
-   "zone": "North West"
+   "latitude": 15.5916
  },
  {
    "vehicleNumber": "UP44CD4714",
@@ -678,8 +648,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 300,
    "longitude": 73.8123,
-   "latitude": 15.5916,
-   "zone": "North West"
+   "latitude": 15.5916
  },
  {
    "vehicleNumber": "UP44CD4714",
@@ -700,8 +669,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 300,
    "longitude": 73.8123,
-   "latitude": 15.5916,
-   "zone": "North West"
+   "latitude": 15.5916
  },
  {
    "vehicleNumber": "UP32UV8901",
@@ -722,8 +690,7 @@ const vehicleData = [
    "officer": "Amit Patel",
    "challanAmount": 1200,
    "longitude": 73.8134,
-   "latitude": 15.5923,
-   "zone": "North West"
+   "latitude": 15.5923
  },
  {
    "vehicleNumber": "UP32UV8901",
@@ -744,8 +711,7 @@ const vehicleData = [
    "officer": "Amit Patel",
    "challanAmount": 1200,
    "longitude": 73.8134,
-   "latitude": 15.5923,
-   "zone": "North West"
+   "latitude": 15.5923
  },
  {
    "vehicleNumber": "UP32UV8901",
@@ -766,8 +732,7 @@ const vehicleData = [
    "officer": "Amit Patel",
    "challanAmount": 1200,
    "longitude": 73.8134,
-   "latitude": 15.5923,
-   "zone": "North West"
+   "latitude": 15.5923
  },
  {
    "vehicleNumber": "TN04GH3456",
@@ -788,8 +753,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8156,
-   "latitude": 15.5898,
-   "zone": "North West"
+   "latitude": 15.5898
  },
  {
    "vehicleNumber": "TN04GH3456",
@@ -810,8 +774,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8156,
-   "latitude": 15.5898,
-   "zone": "North West"
+   "latitude": 15.5898
  },
  {
    "vehicleNumber": "TN04GH3456",
@@ -832,8 +795,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8156,
-   "latitude": 15.5898,
-   "zone": "North West"
+   "latitude": 15.5898
  },
  {
    "vehicleNumber": "UP36CD5949",
@@ -854,8 +816,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 500,
    "longitude": 73.8245,
-   "latitude": 15.4989,
-   "zone": "North West"
+   "latitude": 15.4989
  },
  {
    "vehicleNumber": "UP36CD5949",
@@ -876,8 +837,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 500,
    "longitude": 73.8245,
-   "latitude": 15.4989,
-   "zone": "North West"
+   "latitude": 15.4989
  },
  {
    "vehicleNumber": "UP36CD5949",
@@ -898,8 +858,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 500,
    "longitude": 73.8245,
-   "latitude": 15.4989,
-   "zone": "North West"
+   "latitude": 15.4989
  },
  {
    "vehicleNumber": "UP49CD4199",
@@ -920,8 +879,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.8278,
-   "latitude": 15.4909,
-   "zone": "North West"
+   "latitude": 15.4909
  },
  {
    "vehicleNumber": "UP49CD4199",
@@ -942,8 +900,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.8278,
-   "latitude": 15.4909,
-   "zone": "North West"
+   "latitude": 15.4909
  },
  {
    "vehicleNumber": "UP49CD4199",
@@ -964,8 +921,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.8278,
-   "latitude": 15.4909,
-   "zone": "North West"
+   "latitude": 15.4909
  },
  {
    "vehicleNumber": "GJ01QR0123",
@@ -986,8 +942,7 @@ const vehicleData = [
    "officer": "Deepak Chopra",
    "challanAmount": 500,
    "longitude": 73.8298,
-   "latitude": 15.4978,
-   "zone": "North West"
+   "latitude": 15.4978
  },
  {
    "vehicleNumber": "GJ01QR0123",
@@ -1008,8 +963,7 @@ const vehicleData = [
    "officer": "Deepak Chopra",
    "challanAmount": 500,
    "longitude": 73.8298,
-   "latitude": 15.4978,
-   "zone": "North West"
+   "latitude": 15.4978
  },
  {
    "vehicleNumber": "GJ01QR0123",
@@ -1030,8 +984,7 @@ const vehicleData = [
    "officer": "Deepak Chopra",
    "challanAmount": 500,
    "longitude": 73.8298,
-   "latitude": 15.4978,
-   "zone": "North West"
+   "latitude": 15.4978
  },
  {
    "vehicleNumber": "UP78CD1307",
@@ -1052,8 +1005,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8321,
-   "latitude": 15.4987,
-   "zone": "North West"
+   "latitude": 15.4987
  },
  {
    "vehicleNumber": "UP78CD1307",
@@ -1074,8 +1026,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8321,
-   "latitude": 15.4987,
-   "zone": "North West"
+   "latitude": 15.4987
  },
  {
    "vehicleNumber": "UP78CD1307",
@@ -1096,8 +1047,7 @@ const vehicleData = [
    "officer": "Rahul Gupta",
    "challanAmount": 500,
    "longitude": 73.8321,
-   "latitude": 15.4987,
-   "zone": "North West"
+   "latitude": 15.4987
  },
  {
    "vehicleNumber": "GA05EF9012",
@@ -1118,8 +1068,7 @@ const vehicleData = [
    "officer": "Vishal Naik",
    "challanAmount": 800,
    "longitude": 73.9087,
-   "latitude": 15.5857,
-   "zone": "North East"
+   "latitude": 15.5857
  },
  {
    "vehicleNumber": "GA05EF9012",
@@ -1140,8 +1089,7 @@ const vehicleData = [
    "officer": "Vishal Naik",
    "challanAmount": 800,
    "longitude": 73.9087,
-   "latitude": 15.5857,
-   "zone": "North East"
+   "latitude": 15.5857
  },
  {
    "vehicleNumber": "UP13CD5743",
@@ -1162,8 +1110,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 700,
    "longitude": 73.9159,
-   "latitude": 15.2698,
-   "zone": "South West"
+   "latitude": 15.2698
  },
  {
    "vehicleNumber": "UP13CD5743",
@@ -1184,8 +1131,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 700,
    "longitude": 73.9159,
-   "latitude": 15.2698,
-   "zone": "South West"
+   "latitude": 15.2698
  },
  {
    "vehicleNumber": "UP13CD5743",
@@ -1206,8 +1152,7 @@ const vehicleData = [
    "officer": "Sunita Rao",
    "challanAmount": 700,
    "longitude": 73.9159,
-   "latitude": 15.2698,
-   "zone": "South West"
+   "latitude": 15.2698
  },
  {
    "vehicleNumber": "GA14CD4567",
@@ -1228,8 +1173,7 @@ const vehicleData = [
    "officer": "Shraddha Naik",
    "challanAmount": 600,
    "longitude": 73.9268,
-   "latitude": 15.2566,
-   "zone": "South West"
+   "latitude": 15.2566
  },
  {
    "vehicleNumber": "KA03EF9012",
@@ -1250,8 +1194,7 @@ const vehicleData = [
    "officer": "Jimil mandani",
    "challanAmount": 700,
    "longitude": 73.9578,
-   "latitude": 15.2745,
-   "zone": "South West"
+   "latitude": 15.2745
  },
  {
    "vehicleNumber": "KA03EF9012",
@@ -1272,8 +1215,7 @@ const vehicleData = [
    "officer": "Jimil mandani",
    "challanAmount": 700,
    "longitude": 73.9578,
-   "latitude": 15.2745,
-   "zone": "South West"
+   "latitude": 15.2745
  },
  {
    "vehicleNumber": "KA03EF9012",
@@ -1294,8 +1236,7 @@ const vehicleData = [
    "officer": "Jimil mandani",
    "challanAmount": 700,
    "longitude": 73.9578,
-   "latitude": 15.2745,
-   "zone": "South West"
+   "latitude": 15.2745
  },
  {
    "vehicleNumber": "UP41CD1468",
@@ -1316,8 +1257,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.9587,
-   "latitude": 15.2721,
-   "zone": "South West"
+   "latitude": 15.2721
  },
  {
    "vehicleNumber": "UP41CD1468",
@@ -1338,8 +1278,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.9587,
-   "latitude": 15.2721,
-   "zone": "South West"
+   "latitude": 15.2721
  },
  {
    "vehicleNumber": "UP41CD1468",
@@ -1360,8 +1299,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 700,
    "longitude": 73.9587,
-   "latitude": 15.2721,
-   "zone": "South West"
+   "latitude": 15.2721
  },
  {
    "vehicleNumber": "WB05NP6789",
@@ -1382,8 +1320,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.9598,
-   "latitude": 15.2734,
-   "zone": "South West"
+   "latitude": 15.2734
  },
  {
    "vehicleNumber": "WB05NP6789",
@@ -1404,8 +1341,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.9598,
-   "latitude": 15.2734,
-   "zone": "South West"
+   "latitude": 15.2734
  },
  {
    "vehicleNumber": "WB05NP6789",
@@ -1426,8 +1362,7 @@ const vehicleData = [
    "officer": "Rajesh Kumar",
    "challanAmount": 1000,
    "longitude": 73.9598,
-   "latitude": 15.2734,
-   "zone": "South West"
+   "latitude": 15.2734
  },
  {
    "vehicleNumber": "GA08CD5678",
@@ -1448,8 +1383,7 @@ const vehicleData = [
    "officer": "Neha Sawant",
    "challanAmount": 400,
    "longitude": 73.9668,
-   "latitude": 15.4027,
-   "zone": "South East"
+   "latitude": 15.4027
  },
  {
    "vehicleNumber": "GA08CD5678",
@@ -1470,8 +1404,7 @@ const vehicleData = [
    "officer": "Neha Sawant",
    "challanAmount": 400,
    "longitude": 73.9668,
-   "latitude": 15.4027,
-   "zone": "South East"
+   "latitude": 15.4027
  },
  {
    "vehicleNumber": "GA13AB0123",
@@ -1492,8 +1425,7 @@ const vehicleData = [
    "officer": "Vikram Prabhu",
    "challanAmount": 1000,
    "longitude": 74.009,
-   "latitude": 15.0461,
-   "zone": "South West"
+   "latitude": 15.0461
  },
  {
    "vehicleNumber": "UP74CD2372",
@@ -1514,8 +1446,7 @@ const vehicleData = [
    "officer": "Vikram Malhotra",
    "challanAmount": 500,
    "longitude": 74.0221,
-   "latitude": 14.9958,
-   "zone": "South West"
+   "latitude": 14.9958
  },
  {
    "vehicleNumber": "UP74CD2372",
@@ -1536,8 +1467,7 @@ const vehicleData = [
    "officer": "Vikram Malhotra",
    "challanAmount": 500,
    "longitude": 74.0221,
-   "latitude": 14.9958,
-   "zone": "South West"
+   "latitude": 14.9958
  },
  {
    "vehicleNumber": "UP74CD2372",
@@ -1558,8 +1488,7 @@ const vehicleData = [
    "officer": "Vikram Malhotra",
    "challanAmount": 500,
    "longitude": 74.0221,
-   "latitude": 14.9958,
-   "zone": "South West"
+   "latitude": 14.9958
  },
  {
    "vehicleNumber": "TS10LM2345",
@@ -1580,8 +1509,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 300,
    "longitude": 74.0234,
-   "latitude": 14.9967,
-   "zone": "South West"
+   "latitude": 14.9967
  },
  {
    "vehicleNumber": "TS10LM2345",
@@ -1602,8 +1530,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 300,
    "longitude": 74.0234,
-   "latitude": 14.9967,
-   "zone": "South West"
+   "latitude": 14.9967
  },
  {
    "vehicleNumber": "TS10LM2345",
@@ -1624,8 +1551,7 @@ const vehicleData = [
    "officer": "Sanjay Deshmukh",
    "challanAmount": 300,
    "longitude": 74.0234,
-   "latitude": 14.9967,
-   "zone": "South West"
+   "latitude": 14.9967
  },
  {
    "vehicleNumber": "GA01LM2345",
@@ -1646,8 +1572,7 @@ const vehicleData = [
    "officer": "Sonia Dessai",
    "challanAmount": 1000,
    "longitude": 74.0593,
-   "latitude": 14.9959,
-   "zone": "South West"
+   "latitude": 14.9959
  },
  {
    "vehicleNumber": "GA01LM2345",
@@ -1668,8 +1593,7 @@ const vehicleData = [
    "officer": "Sonia Dessai",
    "challanAmount": 1000,
    "longitude": 74.0593,
-   "latitude": 14.9959,
-   "zone": "South West"
+   "latitude": 14.9959
  },
  {
    "vehicleNumber": "GA09ST4567",
@@ -1690,8 +1614,7 @@ const vehicleData = [
    "officer": "Mahesh Velip",
    "challanAmount": 800,
    "longitude": 74.0777,
-   "latitude": 15.2126,
-   "zone": "South East"
+   "latitude": 15.2126
  },
  {
    "vehicleNumber": "GA09ST4567",
@@ -1712,8 +1635,7 @@ const vehicleData = [
    "officer": "Mahesh Velip",
    "challanAmount": 800,
    "longitude": 74.0777,
-   "latitude": 15.2126,
-   "zone": "South East"
+   "latitude": 15.2126
  },
  {
    "vehicleNumber": "GA15EF8901",
@@ -1734,8 +1656,7 @@ const vehicleData = [
    "officer": "Amey Naik",
    "challanAmount": 300,
    "longitude": 74.1054,
-   "latitude": 15.1766,
-   "zone": "South East"
+   "latitude": 15.1766
  },
  {
    "vehicleNumber": "GA10GH3456",
@@ -1756,8 +1677,7 @@ const vehicleData = [
    "officer": "Anjali Borkar",
    "challanAmount": 500,
    "longitude": 74.1109,
-   "latitude": 15.2644,
-   "zone": "South East"
+   "latitude": 15.2644
  },
  {
    "vehicleNumber": "GA10GH3456",
@@ -1778,8 +1698,7 @@ const vehicleData = [
    "officer": "Anjali Borkar",
    "challanAmount": 500,
    "longitude": 74.1109,
-   "latitude": 15.2644,
-   "zone": "South East"
+   "latitude": 15.2644
  },
  {
    "vehicleNumber": "GA03JK7890",
@@ -1800,8 +1719,7 @@ const vehicleData = [
    "officer": "Rohit Gaonkar",
    "challanAmount": 700,
    "longitude": 74.1367,
-   "latitude": 15.5321,
-   "zone": "North East"
+   "latitude": 15.5321
  },
  {
    "vehicleNumber": "GA03JK7890",
@@ -1822,8 +1740,7 @@ const vehicleData = [
    "officer": "Rohit Gaonkar",
    "challanAmount": 700,
    "longitude": 74.1367,
-   "latitude": 15.5321,
-   "zone": "North East"
+   "latitude": 15.5321
  },
  {
    "vehicleNumber": "GA02QR0123",
@@ -1844,8 +1761,7 @@ const vehicleData = [
    "officer": "Reshma Gaude",
    "challanAmount": 300,
    "longitude": 74.151,
-   "latitude": 15.2292,
-   "zone": "South East"
+   "latitude": 15.2292
  },
  {
    "vehicleNumber": "GA02QR0123",
@@ -1866,8 +1782,7 @@ const vehicleData = [
    "officer": "Reshma Gaude",
    "challanAmount": 300,
    "longitude": 74.151,
-   "latitude": 15.2292,
-   "zone": "South East"
+   "latitude": 15.2292
  },
  {
    "vehicleNumber": "GA04UV8901",
@@ -1888,8 +1803,7 @@ const vehicleData = [
    "officer": "Sakshi Gawas",
    "challanAmount": 900,
    "longitude": 74.207,
-   "latitude": 15.4226,
-   "zone": "South East"
+   "latitude": 15.4226
  },
  {
    "vehicleNumber": "GA04UV8901",
@@ -1910,10 +1824,8 @@ const vehicleData = [
    "officer": "Sakshi Gawas",
    "challanAmount": 900,
    "longitude": 74.207,
-   "latitude": 15.4226,
-   "zone": "South East"
+   "latitude": 15.4226
  }
 ]
-
 
 export default vehicleData

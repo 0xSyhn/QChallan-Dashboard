@@ -1,20 +1,18 @@
 import React from 'react';
 import {
   BanknotesIcon,
-  ClockIcon,
-  UserGroupIcon,
   InboxIcon,
   ExclamationTriangleIcon,
+  CurrencyRupeeIcon,
 } from '@heroicons/react/24/outline';
 import { lusitana } from '@/components/fonts';
 import { fetchCardData } from '@/lib/mknnClassifier';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 const iconMap = {
-  collected: BanknotesIcon,
-  customers: UserGroupIcon,
-  pending: ClockIcon,
-  invoices: InboxIcon,
+  totalAmount: BanknotesIcon,
+  avgAmount: CurrencyRupeeIcon,
+  totalChallans: InboxIcon,
   violations: ExclamationTriangleIcon,
 };
 
@@ -67,9 +65,9 @@ function ZoneCard({ zone, data }: {
       </CardHeader>
       <CardContent>
         <div className="space-y-4">
-          <DataRow title="Total Challans" value={data.challans} type="invoices" />
-          <DataRow title="Total Amount" value={`₹${data.amount.toLocaleString()}`} type="collected" />
-          <DataRow title="Average Amount" value={`₹${data.avgAmount.toFixed(2)}`} type="pending" />
+          <DataRow title="Total Challans" value={data.challans} type="totalChallans" />
+          <DataRow title="Total Amount" value={`₹${data.amount.toLocaleString()}`} type="totalAmount" />
+          <DataRow title="Average Amount" value={`₹${data.avgAmount.toFixed(2)}`} type="avgAmount" />
           <ViolationRow violations={data.violations} />
         </div>
       </CardContent>
@@ -88,9 +86,9 @@ function OverallStatsCard({ stats, avgAmount }: {
       </CardHeader>
       <CardContent>
         <div className="lg:grid lg:grid-cols-3 lg:gap-x-10 space-y-4">
-          <DataRow title="Total Challans" value={stats.totalChallans} type="invoices" />
-          <DataRow title="Total Amount Collected" value={`₹${stats.totalAmount.toLocaleString()}`} type="collected" />
-          <DataRow title="Overall Average Challan" value={`₹${avgAmount.toFixed(2)}`} type="pending" />
+          <DataRow title="Total Challans" value={stats.totalChallans} type="totalChallans" />
+          <DataRow title="Total Amount Collected" value={`₹${stats.totalAmount.toLocaleString()}`} type="totalAmount" />
+          <DataRow title="Overall Average Challan" value={`₹${avgAmount.toFixed(2)}`} type="avgAmount" />
         </div>
       </CardContent>
     </Card>
@@ -104,7 +102,7 @@ function DataRow({
 }: {
   title: string;
   value: number | string;
-  type: 'invoices' | 'customers' | 'pending' | 'collected' | 'violations';
+  type: 'totalChallans' | 'avgAmount' | 'totalAmount' | 'violations';
 }) {
   const Icon = iconMap[type];
 

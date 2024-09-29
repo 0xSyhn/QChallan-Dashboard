@@ -1,6 +1,6 @@
 import dynamic from "next/dynamic";
 
-const MapComponent = dynamic(() => import('@/components/Maps'), { ssr: false });
+const MapComponent = dynamic(() => import('@/components/Maps'));
 
 const  Page  = () => {
   return (
