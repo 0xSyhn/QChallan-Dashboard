@@ -7,12 +7,12 @@ import vehicleData from '@/lib/vehicleDetails';
 import { centroids, regionColors, kMeansClustering, categorizeRegion, mapCenter, initialZoom, DataPoint } from '@/lib/kmeans';
 
 const Map: React.FC = () => {
-    const [data, setData] = useState<DataPoint[]>([]);
+    // const [data_, setData] = useState<DataPoint[]>([]);
     const [clusteredData, setClusteredData] = useState<DataPoint[]>([]);
 
     useEffect(() => {
         // Directly set the imported data to the state
-        setData(vehicleData);
+        // setData(vehicleData);
         setClusteredData(kMeansClustering(vehicleData, centroids));
     }, []);
 
