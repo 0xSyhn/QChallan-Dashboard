@@ -1,6 +1,3 @@
-
-// import RevenueChart from "../../ui/dashboard/revenue-chart";
-// import LatestInvoices from "../../ui/dashboard/latest-invoices";
 import { lusitana } from "@/components/fonts";
 import { Suspense } from "react";
 import { LatestInvoicesSkeleton, RevenueChartSkeleton, CardSkeleton } from "@/components/skeleton";
