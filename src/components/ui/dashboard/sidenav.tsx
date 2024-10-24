@@ -2,6 +2,7 @@ import Link from 'next/link';
 import logo from "./../../../assets/logo.png"
 import NavLinks from '../nav-links';
 import Image from 'next/image';
+import { PowerIcon } from 'lucide-react';
 
 
 export default function SideNav() {
