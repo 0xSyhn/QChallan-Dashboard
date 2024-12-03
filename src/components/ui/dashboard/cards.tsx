@@ -248,7 +248,7 @@ function ChartSection({ zoneData }: ChartSectionProps) {
         <CardTitle>Zone Statistics</CardTitle>
       </CardHeader>
       <CardContent>
-        <div className="lg:grid lg:grid-cols-3 lg:gap-x-4 space-y-4">
+        <div className="lg:grid lg:grid-cols-3 lg:gap-x-4">
           <Select value={chartType} onValueChange={setChartType}>
             <SelectTrigger className="w-[180px]">
               <SelectValue placeholder="Chart Type" />
